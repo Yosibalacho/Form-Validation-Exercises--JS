@@ -1,0 +1,10 @@
+#my_form{
+    display: flex;
+    border: solid black 2px;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 100vh;
+    margin: auto;
+    background: grey;
+}

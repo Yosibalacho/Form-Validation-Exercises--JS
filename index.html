@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="my_form" onsubmit="return sendForm()">
+      <h3>NEW USER REGISTRATION</h3>
+
+      <label for="first_input">ENTER FIRST NAME :</label>
+      <input
+        id="first_input"
+        type="text"
+        placeholder="firstname"
+        required
+        maxlength="10"
+        minlength="1"
+      />
+      <br />
+      <label for="last_input">ENTER LAST NAME :</label>
+      <input
+        id="last_input"
+        type="text"
+        placeholder="lastname"
+        required
+        maxlength="10"
+        minlength="1"
+      />
+      <br />
+      <label for="birthdate_input">ENTER BIRTHDATE :</label>
+      <input id="birthdate_input" placeholder="birthdate" type="text" />
+      <br />
+      <label for="email_input">ENTER EMAIL :</label>
+      <input id="email_input" placeholder="email" type="text" />
+      <br />
+      <label for="cellphone_input">ENTER CELLPHONE :</label>
+      <input id="cellphone_input" placeholder="cellphone" type="text" />
+      <br />
+      <label for="password_input">ENTER PASSWORD :</label>
+      <input id="password_input" placeholder="password" type="text" />
+      <br />
+      <label for="password_validation_input"> PASSWORD VALIDATION :</label>
+      <input
+        id="password_validation_input"
+        placeholder="password validation"
+        type="text"
+      />
+      <br />
+      <button type="submit">SUBMIT</button>
+    </form>
+    <script src="main.js"></script>
+  </body>
+</html>
